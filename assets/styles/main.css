@@ -13,12 +13,6 @@
     --mainLinkColor-dark:rgb(30, 190,214);
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;
-
-    --mainTextColor:var(--mainTextColor-dark);
-    --secondaryTextColor:var(--secondaryTextColor-dark);
-    --mainLinkColor:var(--mainLinkColor-dark);
-    --mainBorderColor:var(--mainBorderColor-dark);
-    --mainBgColor:var(--mainBgColor-dark);
 }
 
 *{
@@ -30,6 +24,14 @@
 
 body{
     background-color: var(--mainBgColor);
+}
+
+.dark-theme{
+    --mainTextColor:var(--mainTextColor-dark);
+    --secondaryTextColor:var(--secondaryTextColor-dark);
+    --mainLinkColor:var(--mainLinkColor-dark);
+    --mainBorderColor:var(--mainBorderColor-dark);
+    --mainBgColor:var(--mainBgColor-dark);
 }
 
 p, span, li{
@@ -166,3 +168,11 @@ li{
         padding-left: 0;
     }
 }
+
+
+
+/* Light Mode Change */
+#icon {
+    width: 30px;
+    cursor: pointer;
+  }
