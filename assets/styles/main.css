@@ -10,7 +10,7 @@
 
     --mainTextColor-dark:#fff;
     --secondaryTextColor-dark:#adb0b1;
-    --mainLinkColor-dark:rgb(30, 190,214);
+    --mainLinkColor-dark:#0da2b8;
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;
 }
@@ -24,12 +24,12 @@
 
 body{
     background-color: var(--mainBgColor);
+    --mainLinkColor:var(--mainLinkColor-dark);
 }
 
 .dark-theme{
     --mainTextColor:var(--mainTextColor-dark);
     --secondaryTextColor:var(--secondaryTextColor-dark);
-    --mainLinkColor:var(--mainLinkColor-dark);
     --mainBorderColor:var(--mainBorderColor-dark);
     --mainBgColor:var(--mainBgColor-dark);
 }
