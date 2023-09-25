@@ -23,7 +23,7 @@
 }
 
 body{
-    background-color: var(--mainBgColor-light);
+    background-color: var(--mainBgColor);
 }
 
 body .dark-theme{
