@@ -23,11 +23,10 @@
 }
 
 body{
-    background-color: var(--mainBgColor);
+    background-color: var(--mainBgColor-light);
 }
 
 body .dark-theme{
-    background-color: var(--mainBgColor-light);
     --mainTextColor:var(--mainTextColor-dark);
     --secondaryTextColor:var(--secondaryTextColor-dark);
     --mainBorderColor:var(--mainBorderColor-dark);
