@@ -24,7 +24,6 @@
 
 body{
     background-color: var(--mainBgColor);
-    --mainLinkColor:var(--mainLinkColor-dark);
 }
 
 .dark-theme{
