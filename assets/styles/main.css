@@ -29,11 +29,7 @@
 }
 
 body{
-    --mainTextColor:var(--mainTextColor-dark);
-    --secondaryTextColor:var(--secondaryTextColor-dark);
-    --mainBorderColor:var(--mainBorderColor-dark);
-    --mainBgColor:var(--mainBgColor-dark);
-    --mainLinkColor-dark:var(--mainLinkColor-dark);
+    background-color: var(--mainBgColor);
 }
 
 p, span, li{
