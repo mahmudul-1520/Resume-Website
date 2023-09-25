@@ -31,7 +31,6 @@ body{
     --secondaryTextColor:var(--secondaryTextColor-dark);
     --mainBorderColor:var(--mainBorderColor-dark);
     --mainBgColor:var(--mainBgColor-dark);
-    --mainLinkColor-dark: var(--mainLinkColor-dark);
 }
 
 p, span, li{
