@@ -28,7 +28,7 @@ body{
 }
 
 .dark-theme{
-    --mainTextColor:var(--mainTextColor-dark);
+    --mainTextColor:var(--mainTextColor-light);
     --secondaryTextColor:var(--secondaryTextColor-dark);
     --mainBorderColor:var(--mainBorderColor-dark);
     --mainBgColor:var(--mainBgColor-dark);
