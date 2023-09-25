@@ -29,7 +29,6 @@
 }
 
 body{
-    background-color: var(--mainBgColor-dark);
     --mainTextColor:var(--mainTextColor-dark);
     --secondaryTextColor:var(--secondaryTextColor-dark);
     --mainBorderColor:var(--mainBorderColor-dark);
