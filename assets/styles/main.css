@@ -24,9 +24,6 @@
 
 body{
     background-color: var(--mainBgColor);
-}
-
-body .dark-theme{
     --mainTextColor:var(--mainTextColor-dark);
     --secondaryTextColor:var(--secondaryTextColor-dark);
     --mainBorderColor:var(--mainBorderColor-dark);
